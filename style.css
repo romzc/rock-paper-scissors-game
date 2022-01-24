@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 2rem;
+}
+
+.game-container {
+    display: flex;
+}
+
+.game-container > div {
+    margin: 0 5rem ;
+}
+
+.score {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    justify-content: space-between;
+}
+
+.items-container > button {
+    margin-right: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: greenyellow;
+    font-family: 'Dongle';
+    font-size: 1.5rem;
+}
+
+.items-container > button:hover {
+    background-color: #0f0;
+}

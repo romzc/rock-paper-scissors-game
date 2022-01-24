@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock-pape-scissor</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Rock - Paper - Scissors</h1>
+    </div>
+
+    <section class="game-container">
+
+        <div class="user-container">
+            <h3>User</h3>
+            <div class="">
+                <h2>Rony</h2>
+            </div>
+        </div>
+
+        <div class="score-container">
+            <h3>Score</h3>
+            <div class="score">
+                <p id="user-score">0</p>
+                <span>:</span>
+                <p id="cpu-score">0</p>
+            </div>
+        </div>
+
+        <div class="computer-container">
+            <h3>Computer</h3>
+            <div>
+                <h2>CPU</h2>
+            </div>
+        </div>
+
+    </section>
+    <div class="button-container">
+        <div class="items-container">
+            <button onclick="game('rock')">Rock</button>
+            <button onclick="game('paper')">Paper</button>
+            <button onclick="game('scissors')">Scissors</button>
+        </div>
+    </div>
+
+    <div class="message">
+        <p id="result"></p>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>
