@@ -1,2 +1,2 @@
 # rock-paper-scissors-game
-Game to learn some basics javascript features.
+Game to learn some basic javascript features.
